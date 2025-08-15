@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremiah - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Jeremiah Ogembo</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="profile-media">
+                    <img src="images/profile-picture.jpg" alt="Your Profile Picture" class="profile-pic">
+                     <!--
+                    <div class="video-container">
+                        
+                        <video controls autoplay muted loop>
+                           <source src="videos/intro-video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                       
+                    </div>
+                     -->
+                </div>
+                <div class="introduction">
+                    <h1>Hi, I'm Jeremiah</h1>
+                    <p class="tagline">A Passionate Software Engineer specializing in Full-Stack Development.</p>
+                    <a href="#contact" class="btn primary-btn">Get in Touch</a>
+                    <a href="_resume.pdf" download class="btn secondary-btn">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>My journey into software engineering started with a strong curiosity about how technology works and helps people. 
+                    From the moment I wrote my first program, I was excited by how I could use code to solve real problems.
+                     What keeps me going is the chance to build useful tools, improve how things work, and create better experiences for users.
+                      I especially enjoy working on web applications that are secure, easy to use, and helpful to others.</p>
+                <p>I enjoy working with others and believe that great ideas come from teamwork. When learning something new, I like to dive in, 
+                    try things out, and learn by doing. I’m skilled in backend development using Java and Spring Boot, and I also build frontend 
+                    interfaces using Angular. What makes me different is that I’m creative, focused, and always think about what the user needs.
+                     I’m always eager to learn new things, try new technologies, and keep improving my skills to stay current in this fast-moving field.</p>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3> Bachelor of Science, Software engineering</h3>
+                <p>Western Governors University, Salt Lake, Utah</p>
+                <p>December, 2024</p>
+                <ul>
+                    <li>Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Systems,
+                         Frontend Web Development, Backend Web Development, Project Management.</li>
+                    
+                </ul>
+            </div>
+            </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Overall Skills</h2>
+            <div class="skills-category">
+                <h3>Programming Languages Proficiency</h3>
+                <div class="chart-container">
+                    <canvas id="languageChart"></canvas>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Frameworks & Libraries Expertise</h3>
+                <div class="chart-container">
+                    <canvas id="frameworkChart"></canvas>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Databases</h3>
+                <div class="skill-list">
+                    <span>SQL (PostgreSQL, MySQL)</span>
+                    <span>NoSQL (Oracle, Firebase)</span>
+                    </div>
+            </div>
+            <div class="skills-category">
+                <h3>Tools & Technologies</h3>
+                <div class="skill-list">
+                    <span>Git/GitHub</span>
+                    <span>Docker</span>
+                    <span>AWS</span>
+                    <span>IntelliJ IDEA</span>
+                    <span>VS Code</span>
+                    <span>Postman</span>
+                    </div>
+            </div>
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <div class="skill-list">
+                    <span>Problem Solving</span>
+                    <span>Teamwork & Collaboration</span>
+                    <span>Communication</span>
+                    <span>Adaptability & Learning Agility</span>
+                    <span>Time Management</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications-section">
+            <h2>Certifications</h2>
+            <div class="certification-item">
+                <h3>AWS Certified Cloud Practitioner</h3>
+                <p>aws.amazon.com</p>
+                <p>Issued: Dec 14, 2023</p>
+                <a href="https://www.credly.com/badges/002e59f2-05f9-4209-a5cb-fafe42374a2c/public_url" target="_blank">View Credential</a>
+            </div>
+            <div class="certification-item">
+                <h3>ITIL® 4 Foundation Certificate in IT Service Management</h3>
+                <p>PeopleCert</p>
+                <p>Issued:  May 15, 2024</p>
+            </div>
+            <div class="certification-item">
+                <h3>CompTIA Project+ Certification</h3>
+                <p>CompTIA</p>
+                <p>Issued:  May 15, 2024</p>
+                <a href="https://www.credly.com/badges/c9024040-69ff-45f5-af89-9936c741c910/public_url" target="_blank">View Credential</a>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h2>Past Work Experience</h2>
+            <div class="experience-item">
+                <h3>Back-end Developer Intern</h3>
+                <p>Revature, Reston, Virginia</p>
+                <p>May 2025 – July 2025</p>
+                <ul>
+                    <li>Developed strong programming skills in Java, SQL, RESTful API development, and the Spring Framework.</li>
+                    <li>Implemented project work, including building functional REST APIs using Test-Driven Development (TDD) methodologies.</li>
+                    <li>Completed 110 coding activities and demonstrated mastery of core concepts through 14 evaluations.</li>
+                    <li>Leveraged Java APIs to design and implement algorithms for solving diverse challenges and problem sets.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="images/project1-thumbnail.png" alt="Project Name 1 Thumbnail">
+                    <h3>Project: Social Media Blog API</h3>
+                    <p>Built a RESTful API backend using Java, Javalin, and JDBC to manage users and their messages. 
+                        Implemented login, registration, message creation, updates, and deletion, with endpoints 
+                        to view all messages or those from a specific user. Used direct JDBC database connections
+                         for queries and tested endpoints for correct behavior, ensuring a reliable backend without a frontend.</p>
+                    <div class="project-links">
+                        
+                        <a href="https://github.com/jomlabs/jomlabs-pep-spring-project.git" target="_blank" class="btn project-btn">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/project2-thumbnail.png" alt="Project Name 2 Thumbnail">
+                    <h3>Project: Homecare Management System</h3>
+                    <p>This Homecare Management System uses Spring Boot, Thymeleaf, and MySQL to manage employees, clients, schedules, tasks, 
+                        and reports. Spring Security controls admin and user access, while BCrypt secures passwords. Deletion checks prevent
+                         removing linked data, and iText/Apache POI generate PDF/Excel reports. With a Bootstrap UI, it’s secure, user-friendly, 
+                         and handles complex data relationships efficiently.</p>
+                    <div class="project-links">
+                        <!--<a href="https://your-project2-demo.com" target="_blank" class="btn project-btn">Live Demo</a> -->
+                        <a href="https://github.com/Brianjay2/homecare" target="_blank" class="btn project-btn">GitHub Repo</a>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>I'm always open to new opportunities, collaborations, and discussions about technology. Feel free to reach out!</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:jeremiah254.m.o@gmail.com">jeremiah254.m.o@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/jeremy-ogembo-39061a150/" target="_blank">linkedin profile</a></p>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Jeremiah. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
